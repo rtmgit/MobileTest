@@ -17,8 +17,9 @@ li.dropdown-submenu > ul > li > a {padding:10px 5px 10px 20px;line-height:20px;}
 	/*color:#fff;*/
 }
 @media screen and (max-width:767px) {
-	.navbar-nav ul{
+	.navbar-nav{
 		float: none;
+		text-align: center;
 		/*color:#fff;*/
 	}
 }
