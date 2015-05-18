@@ -12,9 +12,12 @@ li.dropdown-submenu > ul > li > a {padding:10px 5px 10px 20px;line-height:20px;}
 
 #bs-example-navbar-collapse-1{ background-color: rgb(75, 100, 153);}
 
+.navbar-header{
+	background: rgb(75, 100, 153);
+}
+
 .navbar-nav{
 	float: right;
-	/*color:#fff;*/
 }
 @media screen and (max-width:767px) {
 	.navbar-nav{
