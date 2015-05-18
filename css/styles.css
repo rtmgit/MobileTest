@@ -11,3 +11,7 @@ li.dropdown-submenu > ul > li > a {padding:10px 5px 10px 20px;line-height:20px;}
 .navbar-default .navbar-nav > li > ul.dropdown-menu > li > ul.dropdown-menu {position:absolute;z-index:10;top:0;left:100%;width:100%;background:#F8F8F8;}
 
 #bs-example-navbar-collapse-1{ background-color: rgb(75, 100, 153);}
+
+.navbar-nav{
+	float: right;
+}
