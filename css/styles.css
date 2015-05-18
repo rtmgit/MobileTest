@@ -1,0 +1,13 @@
+/* mobile */
+.navbar-default .navbar-nav {position:relative;}
+.navbar-default .navbar-nav li > a {position:relative;}
+/* main navigation - level 1 */
+.navbar-default .navbar-nav > li {position:static;}
+/* main navigation - level 2 */
+.navbar-nav .open .dropdown-menu > li > a,
+li.dropdown-submenu > ul > li > a {padding:10px 5px 10px 20px;line-height:20px;}
+.navbar-default .navbar-nav > li > ul.dropdown-menu {position:absolute;z-index:10;top:0;left:100%;width:100%;background:#F8F8F8;}
+/* main navigation - level 3 */
+.navbar-default .navbar-nav > li > ul.dropdown-menu > li > ul.dropdown-menu {position:absolute;z-index:10;top:0;left:100%;width:100%;background:#F8F8F8;}
+
+#bs-example-navbar-collapse-1{ background-color: rgb(75, 100, 153);}

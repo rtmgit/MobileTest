@@ -1,0 +1,31 @@
+#mainDiv .videoContainerDiv {	
+	width: 50%;
+	margin: 20px auto;
+	-webkit-transform: rotate(180deg);
+}
+#mainDiv .videoContainer {
+	/*height: 90%;*/
+	width: 100%;
+	/*-webkit-transform: rotate(180deg);*/
+
+}
+
+
+/*media queries*/
+@media screen and (max-width:767px){
+	#mainDiv .videoContainerDiv {	
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:480px){
+	#mainDiv .videoContainerDiv {	
+		width: 70%;
+	}
+}
+
+@media screen and (max-width:320px){
+	#mainDiv .videoContainerDiv {	
+		width: 80%;
+	}
+}
